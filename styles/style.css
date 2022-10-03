@@ -144,7 +144,7 @@
 
 .table {
   list-style: none;
-  margin: 0 auto 60px;
+  margin: 0 auto 100px;
   padding: 0;
   width: 1100px;
   display: flex;
@@ -261,8 +261,8 @@
 }
 
 .table__cell_theme_dark {
-  width: 200px;
   color: white;
+  width: 200px;
 }
 
 .table__heading_theme_dark {
