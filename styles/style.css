@@ -12,9 +12,8 @@
   position: relative;
   background-color: #f2f2f2;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 64px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -22,30 +21,39 @@
   width: 228px;
 }
 
-.logo__place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
+  left: 64px;
 }
 
 .header__title {
   margin: 0;
   padding: 0;
   width: 730px;
-  height: 96px;
   font-size: 102px;
   font-weight: 600;
   display: flex;
   align-items: center;
-
+  padding-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 388px;
-  height: 25px;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  bottom: 30px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -73,7 +81,6 @@
 }
 
 .two-columns {
-  padding: 0;
   margin: 100px auto;
   width: 80%;
   min-width: 784px;
@@ -86,19 +93,22 @@
 думаю мои костыли не ок*/
 .two-columns__brief {
   width: 175px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 6px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  margin: 0;
-  position: relative;
-  bottom: 6px;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
   align-items: baseline;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__paragraph {
@@ -113,6 +123,7 @@
   line-height: 34px;
   font-size: 24px;
   margin: 0;
+  padding: 0;
 }
 
 .two-columns__span-accent {
@@ -121,25 +132,28 @@
   font-weight: 600;
 }
 
+.digits {
+  margin: 100px auto;
+  padding: 0;
+}
+
 .section-title {
   width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin: 100px auto 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .section-subtitle {
+  margin: 20px auto 60px;
+  display: flex;
+  justify-content: center;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
-  margin: 0 auto 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .table {
@@ -155,6 +169,8 @@
 
 .table__cell {
   width: 250px;
+  margin: 0;
+  padding: 0;
 }
 
 .table__heading {
@@ -162,21 +178,20 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0;
+  padding: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0;
+  padding: 0;
+  margin: 20px 0 0;
 }
 
-.table__text-down {
-  margin: 0;
-}
-
+/* Поменял высоту на мин, но в брифе написанно просто хай 890*/
 .feynman {
-  height: 890px;
+  min-height: 890px;
   margin: 0 auto;
   padding: 0;
   position: relative;
@@ -281,7 +296,7 @@
 
 .kaufman__triangle {
   background-repeat: no-repeat;
-  background-image: url('/how-to-learn/images/kaufman-triangle.svg');
+  background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
   width: 877px;
   height: 877px;
