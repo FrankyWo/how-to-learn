@@ -1,3 +1,12 @@
+@keyframes rotation {
+  0% {
+      transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -12,8 +21,8 @@
   position: relative;
   background-color: #f2f2f2;
   display: flex;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .logo {
@@ -37,6 +46,7 @@
   align-items: center;
   padding-left: 64px;
   z-index: 2;
+  background-size: cover;
 }
 
 .header__subtitle {
@@ -63,10 +73,10 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  background-size: cover;
 }
 
 .header__square-pic {
+  animation: rotation 20s linear infinite;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -78,12 +88,13 @@
 .description {
   display: flex;
   position: relative;
+  margin: 100px auto;
 }
 
 .two-columns {
-  margin: 100px auto;
   width: 80%;
   min-width: 784px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -130,8 +141,70 @@
   font-weight: 600;
 }
 
+.techniques {
+  width: 80%;
+  margin: 100px auto 0;
+  padding: 0;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 60px;
+  margin: 0 auto;
+}
+
+.cards__item {
+  width: 240px;
+  text-align: center;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  padding: 0;
+  border-radius: 80px;
+}
+
+.cards__title {
+  margin: 0 0 16px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.cards__discription {
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin: 100px auto -50px;
+  padding: 0;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding: 160px 0 0;
+}
+
 .digits {
-  margin: 100px auto;
+  margin: 100px auto 0;
   padding: 0;
 }
 
@@ -152,6 +225,7 @@
   width: 60%;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
@@ -192,6 +266,8 @@
   margin: 0 auto;
   padding: 0;
   position: relative;
+  background-color: #f2f2f2;
+  z-index: 1;
 }
 
 .feynman__image {
