@@ -68,7 +68,7 @@
 }
 
 .header__link:hover {
-  opacity: .3;
+  opacity: .2;
   transition: transform 4s ease-in;
 }
 
@@ -335,7 +335,6 @@
   position: absolute;
   left: 49%;
   margin-left: 48px;
-  opacity: 1;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
@@ -390,7 +389,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  opacity: 1;
 }
 
 .feynman__link:hover {
