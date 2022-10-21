@@ -28,7 +28,7 @@
 @import url(../cards/__discription/cards__discription.css);
 @import url(../cards/__image/cards__image.css);
 @import url(../cards/__item/cards__item.css);
-@import url(../cards/__title/);
+@import url(../cards/__title/cards__title.css);
 /* Секция video*/
 @import url(../video/video.css);
 @import url(../video/__iframes/video__iframes.css);
