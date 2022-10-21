@@ -4,5 +4,5 @@
  ## Научиться учиться: анимация, шрифты, фреймы, работа по БЭМ [^1]
  ## lang=ru
  ------
-[^1]: [Методология БЭМ](httpshabr.comrucompanyyandexblog276035)
-[^2]: [Practicum](httpspracticum.yandex.ru)
+[^1]: [Методология БЭМ](https://habr.com/ru/company/yandex/blog/276035/)
+[^2]: [Practicum](https://practicum.yandex.ru)
