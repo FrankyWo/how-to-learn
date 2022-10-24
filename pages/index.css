@@ -4,7 +4,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
-@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__square-piс/header__square-piс.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/logo/logo.css);
@@ -32,7 +32,7 @@
 /* Секция video*/
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframes/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 /* Секция oakley*/
 @import url(../blocks/oakley/oakley.css);
 /* Секция feynman*/
